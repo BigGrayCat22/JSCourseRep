@@ -35,7 +35,7 @@ console.log(age > vasia);
 console.log(age >= vasia);
 console.log(age < vasia);
 console.log(age <= vasia);
-console.log(age ==   vasia); Lesson 13 */
+console.log(age ==   vasia); Lesson 13 
 
 // Порядок вычислений
 const isSuited = 100 - 10 > 90 - 5;
@@ -46,4 +46,40 @@ let b;
 let c;
 c = b = 100 + 50;
 console.log(c);
-console.log(b);
+console.log(b);   Lesson 14 
+
+// Типы данных
+let a = 6;
+let b = 5.6;
+console.log(typeof a);
+console.log(typeof b);
+a = 'vdf';
+console.log(typeof a);
+let isAdmin = false;
+console.log(typeof isAdmin);
+let bInt = BigInt(234234234);
+console.log(typeof bInt);
+let c;
+console.log(typeof c);
+c = 5;
+console.log(typeof c);
+let d = null;
+console.log(typeof (d == null)); Lesson 15 */
+
+//Шаблон строки
+const projectName = "Sait";
+const price = 2000;
+const autor = "denis pavlov";
+
+const template = autor + " заказал " + projectName + " по цене " + price;
+console.log(template);
+
+const template2 = `${autor} заказал ${projectName} по цене ${price}`;
+console.log(template2)
+
+const template3 = "Проект \n" + "Цена:" + price + "$";
+console.log(template3)
+
+const template4 = `Проект
+        Цена ${price}$`;
+console.log(template4)
